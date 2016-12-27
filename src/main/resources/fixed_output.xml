@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+        <property>
+                <name>iscombine</name>
+                <value>1</value>
+                <description>是否合并小文件  0：不合并  1：合并  当有大量小文件时采用合并方式</description>
+        </property>
+
+        <property>
+                <name>mapreduce.input.fileinputformat.split.minsize</name>
+                <value>64048559</value> 
+                <description>minsize  当iscombine为1时需要配置。请自行根据集群条件配置合适的值。例如：64M：64048559  128M：134217728</description>
+        </property>
+        
+        <property>
+                <name>mapreduce.input.fileinputformat.split.maxsize</name>
+                <value>64048559</value> 
+                <description>合并split的maxsize。当iscombine为1时需要配置。请自行根据集群条件配置合适的值。例如：64M：64048559  128M：134217728</description>
+        </property>
+        
+</configuration>

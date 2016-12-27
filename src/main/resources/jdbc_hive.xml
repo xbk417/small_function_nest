@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+        <property>
+                <name>jdbc.driver.class.name</name>
+                <value>org.apache.hive.jdbc.HiveDriver</value>
+                <description></description>
+        </property>
+
+        <property>
+                <name>jdbc.url</name>
+                <value>jdbc:hive2://june-mint:10000/default</value> 
+                <description></description>
+        </property>
+        
+        <property>
+                <name>jdbc.username</name>
+                <value>64048559</value> 
+                <description></description>
+        </property>
+        
+        <property>
+                <name>jdbc.password</name>
+                <value>64048559</value> 
+                <description></description>
+        </property>
+        
+        <property>
+                <name>username</name>
+                <value>64048559</value> 
+                <description></description>
+        </property>
+        
+</configuration>
